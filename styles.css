@@ -1,0 +1,70 @@
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #8c93d4;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: rgb(228, 25, 25);
+    padding: 16px;
+    text-decoration: aliceblue;
+    background-color: blanchedalmond;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #de2626;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(25, 230, 104);
+    color: white;
+  }
+  
+.portfolio {
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+}
+
+img {
+    margin-left: 450px;
+    height: 485px;
+    width: 485px;
+  }
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
